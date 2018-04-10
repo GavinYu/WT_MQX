@@ -1,0 +1,83 @@
+//
+//  WTConst.m
+//  MQX
+//
+//  Created by admin on 2018/3/25.
+//  Copyright © 2018年 WT. All rights reserved.
+//
+
+#import "WTConst.h"
+
+@implementation WTConst
+/*--------------------------- Add by GavinYu Start ----------------------------*/
+// Mine module
+//show tips msg
+NSString *const WT_MINE_LOGIN_EMAIL_TIPS_MSG = @"请输入注册邮箱";
+NSString *const WT_MINE_LOGIN_EMAIL_ERROR_TIPS_MSG = @"请输入正确的邮箱";
+NSString *const WT_MINE_LOGIN_PASSWORD_TIPS_MSG = @"请输入6-18位密码";
+NSString *const WT_MINE_LOGIN_LOGINING_TIPS_MSG = @"登录中...";
+NSString *const WT_MINE_SENDFLYLOG_TEL_TIPS_MSG = @"请输入您的电话";
+NSString *const WT_MINE_SENDFLYLOG_QUESTION_TIPS_MSG = @"请输入您的问题";
+NSString *const WT_MINE_RESETPASSWORD_VERIFICATIONCODE_TIPS_MSG = @"请输入验证码";
+
+//Value-Key
+NSString *const WT_MINE_TOKEN_KEY = @"WT_MINE_TOKEN_KEY";
+NSString *const WT_USER_LATITUDE_KEY = @"WT_USER_LATITUDE_KEY";
+NSString *const WT_USER_LONGITUDE_KEY = @"WT_USER_LONGITUDE_KEY";
+NSString *const WT_USER_ACCOUNT_KEY = @"WT_USER_ACCOUNT_KEY";
+NSString *const WT_USER_PASSWORD_KEY = @"WT_USER_PASSWORD_KEY";
+NSString *const WT_USER_ID_KEY = @"WT_USER_ID_KEY";
+NSString *const WT_DRONE_FLY_STATE_KEY = @"WT_DRONE_FLY_STATE_KEY";
+NSString *const WT_APP_LOST_DATE_KEY = @"WT_APP_LOST_DATE_KEY";
+NSString *const WT_APP_RESTART_DATE_KEY = @"WT_APP_RESTART_DATE_KEY";
+NSString *const WT_FLIGHT_LOG_FILE_TMP_PATH__KEY = @"WT_FLIGHT_LOG_FILE_TMP_PATH__KEY";
+NSString *const WT_APP_FIRST_LAUNCH_KEY = @"WT_APP_FIRST_LAUNCH_KEY";
+NSString *const WT_APP_EVER_LAUNCH_KEY = @"WT_APP_EVER_LAUNCH_KEY";
+NSString *const WT_DRONESETTING_UNIT_KEY = @"WT_DRONESETTING_UNIT_KEY";
+NSString *const WT_APCOMMAND_VERSION_KEY = @"WT_APCOMMAND_VERSION_KEY"; // 飞控版本
+NSString *const WT_USER_PRIVACYPOLICY_KEY = @"WT_USER_PRIVACYPOLICY_KEY";
+NSString *const WT_FLIGHT_LOG_SYN_STATUS_KEY = @"WT_FLIGHT_LOG_SYN_STATUS_KEY";//上传飞行日志---自动同步的状态
+NSString *const WT_CAMERA_BIND_STATE_KEY = @"WT_CAMERA_BIND_STATE_KEY";//相机绑定状态
+
+NSString *const WT_USER_FLYVERSION_KEY = @"WT_USER_FLYVERSION_KEY"; // 飞控版本
+NSString *const WT_USER_RCVERSION_KEY = @"WT_USER_RCVERSION_KEY"; // 遥控器版本
+NSString *const WT_USER_APPVERSION_KEY = @"WT_USER_APPVERSION_KEY"; // app版本
+NSString *const WT_USER_CAMERAVERSION_KEY = @"WT_USER_CAMERAVERSION_KEY"; // 相机版本（样式：相机版本_美版）
+
+NSString *const WT_SERVER_FLYVERSION_KEY = @"WT_SERVER_FLYVERSION_KEY"; // 飞控版本
+NSString *const WT_SERVER_RCVERSION_KEY = @"WT_SERVER_RCVERSION_KEY"; // 遥控器版本
+NSString *const WT_SERVER_CAMERAVERSION_KEY = @"WT_SERVER_CAMERAVERSION_KEY"; // 相机版本
+NSString *const WT_DRONEGALLERY_SCROLLPOINTY = @"WT_DRONEGALLERY_SCROLLPOINTY"; //飞机图库中scrollView的Y坐标偏移量
+NSString *const WT_MAIN_TIRO_GUIDE_SHOW_STATUS_KEY = @"WT_MAIN_TIRO_GUIDE_SHOW_STATUS_KEY"; //新手指引图显示标志
+NSString *const WT_REMOTECONTROL_TAKEPHOTO_KEY = @"WT_REMOTECONTROL_TAKEPHOTO_KEY"; //遥控器拍照 0不可以，1可以
+
+NSString *const WT_USER_IS_INITIATIVE_LOGIN_KEY = @"WT_USER_IS_INITIATIVE_LOGIN_KEY";//标志用户是什么方式登录的(0:后台被动登录，1:主动登录，2：注册后自动登录)
+
+NSString *const WT_USER_COUNTRY_KEY = @"WT_USER_COUNTRY_KEY";//用户选择的国家
+NSString *const WT_DRONE_SOLE_NUMBER_KEY = @"WT_DRONE_SOLE_NUMBER_KEY";//飞机唯一识别号
+
+//Notification
+NSString *const WT_CAMEAR_WARNING_NOTIFICATION = @"WT_CAMEAR_WARNING_NOTIFICATION";
+NSString *const WT_DRONESETTING_UNIT_NOTIFICATION = @"WT_DRONESETTING_UNIT_NOTIFICATION";
+NSString *const WT_CAMERA_INFO_NOTIFICATION = @"WT_CAMERA_INFO_NOTIFICATION";
+NSString *const WT_CAMERA_BIND_STATE_NOTIFICATION = @"WT_CAMERA_BIND_STATE_NOTIFICATION";
+/*--------------------------- Add by GavinYu End ----------------------------*/
+
+
+/*--------------------------- Add by Hank Start ----------------------------*/
+
+// Notification
+NSString *const WT_CAMERA_SHUTTER_NOTIFICATION = @"WT_CAMERA_SHUTTER_NOTIFICATION";
+// 网络状态:WiFi
+NSString *const WT_NETWORK_STATUS_WIFI_NOTIFICATION = @"WT_NETWORK_STATUS_WIFI_NOTIFICATION";
+// 网络状态:GPRS
+NSString *const WT_NETWORK_STATUS_WWAN_NOTIFICATION = @"WT_NETWORK_STATUS_WWAN_NOTIFICATION";
+// 网络状态:没有网络
+NSString *const WT_NETWORK_STATUS_NOTREACHABLE_NOTIFICATION = @"WT_NETWORK_STATUS_NOTREACHABLE_NOTIFICATION";
+
+// 相机连接状态---未连接
+NSString *const WT_CAMERA_STATE_NOT_CONNECT_NOTIFICATION = @"WT_CAMERA_STATE_NOT_CONNECT_NOTIFICATION";
+// 相机连接状态---已连接
+NSString *const WT_CAMERA_STATE_CONNECTED_NOTIFICATION = @"WT_CAMERA_STATE_CONNECTED_NOTIFICATION";
+/*--------------------------- Add by Hank End ----------------------------*/
+@end

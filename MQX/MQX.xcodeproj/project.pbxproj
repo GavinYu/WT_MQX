@@ -1,0 +1,1448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		843C68F92063E09A00975995 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C68F82063E09A00975995 /* AppDelegate.m */; };
+		843C68FC2063E09A00975995 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C68FB2063E09A00975995 /* ViewController.m */; };
+		843C68FF2063E09A00975995 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843C68FD2063E09A00975995 /* Main.storyboard */; };
+		843C69012063E09A00975995 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843C69002063E09A00975995 /* Assets.xcassets */; };
+		843C69042063E09A00975995 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843C69022063E09A00975995 /* LaunchScreen.storyboard */; };
+		843C69072063E09A00975995 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C69062063E09A00975995 /* main.m */; };
+		843C69112063E09A00975995 /* MQXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C69102063E09A00975995 /* MQXTests.m */; };
+		843C691C2063E09A00975995 /* MQXUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C691B2063E09A00975995 /* MQXUITests.m */; };
+		843C69352063E1F100975995 /* WTPhotosDataBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C69342063E1F100975995 /* WTPhotosDataBaseModel.m */; };
+		843C69382063E20C00975995 /* WTDroneNavigationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C69372063E20C00975995 /* WTDroneNavigationModel.m */; };
+		843C693B2063E22A00975995 /* WTDronePhotoInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C693A2063E22A00975995 /* WTDronePhotoInfoModel.m */; };
+		843C69472063E2A600975995 /* WTDeviceInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C69462063E2A600975995 /* WTDeviceInfoModel.m */; };
+		843C694A2063E2ED00975995 /* WTCircleProgressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C69492063E2ED00975995 /* WTCircleProgressModel.m */; };
+		843C694D2063E30800975995 /* WTSDCardInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C694C2063E30800975995 /* WTSDCardInfoModel.m */; };
+		843C69502063E33100975995 /* WTCameraSettingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C694F2063E33100975995 /* WTCameraSettingModel.m */; };
+		843C695D2063E94F00975995 /* WTAVPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C695C2063E94F00975995 /* WTAVPlayerView.m */; };
+		843C695F2063E96C00975995 /* WTAVPlayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843C695E2063E96C00975995 /* WTAVPlayerView.xib */; };
+		843C69632063E9CE00975995 /* WTCircleProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C69622063E9CE00975995 /* WTCircleProgress.m */; };
+		843C69662063E9F200975995 /* WTCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C69652063E9F100975995 /* WTCircleProgressView.m */; };
+		843C69682063EA0C00975995 /* WTCircleProgressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843C69672063EA0C00975995 /* WTCircleProgressView.xib */; };
+		843C696B2063EA2B00975995 /* WTDroneToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C696A2063EA2B00975995 /* WTDroneToolView.m */; };
+		843C696D2063EA4900975995 /* WTDroneToolView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843C696C2063EA4900975995 /* WTDroneToolView.xib */; };
+		843C696F2063EA6B00975995 /* WTDroneNavigationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843C696E2063EA6B00975995 /* WTDroneNavigationView.xib */; };
+		843C69722063EA8600975995 /* WTDroneNavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C69712063EA8600975995 /* WTDroneNavigationView.m */; };
+		843C69772063EB0100975995 /* WTPreviewPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C69762063EB0100975995 /* WTPreviewPhotoCell.m */; };
+		843C697A2063EB3200975995 /* WTCommonCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C69792063EB3200975995 /* WTCommonCollectionCell.m */; };
+		843C697E2063EBA900975995 /* WTScrollLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C697D2063EBA900975995 /* WTScrollLabelView.m */; };
+		843C69822063EBF500975995 /* WTPopWindowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C69812063EBF500975995 /* WTPopWindowView.m */; };
+		843C69842063EC0B00975995 /* WTPopWindowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843C69832063EC0B00975995 /* WTPopWindowView.xib */; };
+		843C69882063EC4E00975995 /* WTSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C69862063EC4E00975995 /* WTSwitchCell.m */; };
+		843C69892063EC4E00975995 /* WTSwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843C69872063EC4E00975995 /* WTSwitchCell.xib */; };
+		843C698D2063ECCA00975995 /* WTCameraCommonSettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C698C2063ECCA00975995 /* WTCameraCommonSettingView.m */; };
+		843C69902063ECEC00975995 /* WTCameraSettingHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C698F2063ECEC00975995 /* WTCameraSettingHeaderView.m */; };
+		843C69922063ED0800975995 /* WTCameraSettingHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843C69912063ED0700975995 /* WTCameraSettingHeaderView.xib */; };
+		843C69962063ED4300975995 /* WTCameraSettingModeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C69942063ED4300975995 /* WTCameraSettingModeCell.m */; };
+		843C69972063ED4300975995 /* WTCameraSettingModeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843C69952063ED4300975995 /* WTCameraSettingModeCell.xib */; };
+		843C699A2063ED6A00975995 /* WTCameraSettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C69992063ED6A00975995 /* WTCameraSettingView.m */; };
+		843C699D2063ED8C00975995 /* WTCameraToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C699C2063ED8C00975995 /* WTCameraToolView.m */; };
+		843C69A02063EDA300975995 /* WTVideoTimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C699F2063EDA300975995 /* WTVideoTimeView.m */; };
+		843C69A22063EDB700975995 /* WTVideoTimeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843C69A12063EDB600975995 /* WTVideoTimeView.xib */; };
+		843C69A42063EDCC00975995 /* WTCameraToolView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843C69A32063EDCC00975995 /* WTCameraToolView.xib */; };
+		843C69A82063EE3600975995 /* WTCommonCollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C69A72063EE3600975995 /* WTCommonCollectionHeaderView.m */; };
+		843C69AB2063EE8900975995 /* WTWarningView.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C69AA2063EE8900975995 /* WTWarningView.m */; };
+		843C69AD2063EE9C00975995 /* WTWarningView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843C69AC2063EE9C00975995 /* WTWarningView.xib */; };
+		843C69B02063EEBD00975995 /* WTDroneStateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C69AF2063EEBD00975995 /* WTDroneStateView.m */; };
+		843C69B32063EED500975995 /* WTNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C69B22063EED500975995 /* WTNavigationBar.m */; };
+		843C69B52063EEEA00975995 /* WTNavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843C69B42063EEEA00975995 /* WTNavigationBar.xib */; };
+		843C69B72063EF0200975995 /* WTDroneStateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843C69B62063EF0200975995 /* WTDroneStateView.xib */; };
+		843C69BB2063EF5D00975995 /* WTStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C69BA2063EF5D00975995 /* WTStatusView.m */; };
+		843C69BE2063EF7400975995 /* WTFlightStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C69BD2063EF7400975995 /* WTFlightStatusView.m */; };
+		843C69C02063EF8800975995 /* WTFlightStatusView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843C69BF2063EF8800975995 /* WTFlightStatusView.xib */; };
+		843C69C32063EFA600975995 /* WTVideoHomepageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C69C22063EFA600975995 /* WTVideoHomepageView.m */; };
+		843C69C52063EFB900975995 /* WTVideoHomepageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843C69C42063EFB900975995 /* WTVideoHomepageView.xib */; };
+		843C69CE2063F4DA00975995 /* WTNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C69CD2063F4DA00975995 /* WTNavigationViewController.m */; };
+		843C69D12063F4FE00975995 /* WTBaseNavigationControllerStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C69D02063F4FE00975995 /* WTBaseNavigationControllerStack.m */; };
+		843C69D42063F51600975995 /* WTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C69D32063F51600975995 /* WTBaseViewController.m */; };
+		843C69D72063F54400975995 /* WTVideoPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C69D62063F54400975995 /* WTVideoPreviewViewController.m */; };
+		843C69DA2063F56200975995 /* WTStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C69D92063F56200975995 /* WTStoreViewController.m */; };
+		843C69E0206477EA00975995 /* WTDroneGalleryTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C69DF206477EA00975995 /* WTDroneGalleryTransitionAnimator.m */; };
+		843C69E32064781300975995 /* WTDroneGalleryBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C69E22064781300975995 /* WTDroneGalleryBaseViewController.m */; };
+		843C69E62064782E00975995 /* WTDroneGalleryPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C69E52064782E00975995 /* WTDroneGalleryPreviewViewController.m */; };
+		843C69E92064784800975995 /* WTDroneGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C69E82064784800975995 /* WTDroneGalleryViewController.m */; };
+		843C69EC2064786700975995 /* WTMeidasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C69EB2064786700975995 /* WTMeidasViewController.m */; };
+		843C69EF2064788300975995 /* WTGalleryBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C69EE2064788300975995 /* WTGalleryBaseViewController.m */; };
+		843C69F2206478D300975995 /* WTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C69F1206478D300975995 /* WTMainViewController.m */; };
+		843C69F5206478E400975995 /* WTMqxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C69F4206478E400975995 /* WTMqxViewController.m */; };
+		843C6A0620647A1D00975995 /* WTUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C6A0520647A1D00975995 /* WTUtil.m */; };
+		843C6A0920647A3D00975995 /* WTMessageBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C6A0820647A3D00975995 /* WTMessageBox.m */; };
+		843C6A0C20647A6B00975995 /* WTDroneMediasDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C6A0B20647A6B00975995 /* WTDroneMediasDownloadManager.m */; };
+		843C6A0F20647A8000975995 /* WTWarningManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C6A0E20647A8000975995 /* WTWarningManager.m */; };
+		843C6A1320647ABC00975995 /* WTABECamManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C6A1220647ABC00975995 /* WTABECamManager.m */; };
+		843C6A1620647AF300975995 /* WTDroneGalleryMediasHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C6A1520647AF300975995 /* WTDroneGalleryMediasHelper.m */; };
+		843C6A1920647B4900975995 /* UIColor+WTColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C6A1820647B4900975995 /* UIColor+WTColor.m */; };
+		843C6A1C20647B6000975995 /* UIImage+WTImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C6A1B20647B6000975995 /* UIImage+WTImage.m */; };
+		843C6A1F20647B7200975995 /* UIButton+WTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C6A1E20647B7200975995 /* UIButton+WTButton.m */; };
+		843C6A2220647B8700975995 /* UIFont+WTFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C6A2120647B8700975995 /* UIFont+WTFont.m */; };
+		843C6A2A20679B7300975995 /* WTSessionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C6A2920679B7300975995 /* WTSessionModel.m */; };
+		843C6A2D20679B9B00975995 /* UIImage+Clip.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C6A2C20679B9B00975995 /* UIImage+Clip.m */; };
+		843C6A3020679BB900975995 /* WTImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C6A2F20679BB900975995 /* WTImageHelper.m */; };
+		843C6A3320679BD300975995 /* WTDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C6A3220679BD300975995 /* WTDownloadManager.m */; };
+		843C6A3620679C1100975995 /* WTPhotosDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C6A3520679C1100975995 /* WTPhotosDataBase.m */; };
+		843C6A3920679C3500975995 /* ZWVerticalAlignLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C6A3820679C3500975995 /* ZWVerticalAlignLabel.m */; };
+		843C6A3B20679C5500975995 /* ABECam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843C6A3A20679C5500975995 /* ABECam.framework */; };
+		843C6A4020679CB700975995 /* WTConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C6A3F20679CB700975995 /* WTConst.m */; };
+		843C6A4620679D5E00975995 /* CameraSetting.plist in Resources */ = {isa = PBXBuildFile; fileRef = 843C6A4520679D5D00975995 /* CameraSetting.plist */; };
+		843C6A5A2067A67700975995 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 843C6A5C2067A67700975995 /* Localizable.strings */; };
+		843C6A602067E40500975995 /* WTMediaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C6A5E2067E40500975995 /* WTMediaModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		843C690D2063E09A00975995 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 843C68EC2063E09A00975995 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 843C68F32063E09A00975995;
+			remoteInfo = MQX;
+		};
+		843C69182063E09A00975995 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 843C68EC2063E09A00975995 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 843C68F32063E09A00975995;
+			remoteInfo = MQX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		843C68F42063E09A00975995 /* MQX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MQX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		843C68F72063E09A00975995 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		843C68F82063E09A00975995 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		843C68FA2063E09A00975995 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		843C68FB2063E09A00975995 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		843C68FE2063E09A00975995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		843C69002063E09A00975995 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		843C69032063E09A00975995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		843C69052063E09A00975995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843C69062063E09A00975995 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		843C690C2063E09A00975995 /* MQXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MQXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		843C69102063E09A00975995 /* MQXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQXTests.m; sourceTree = "<group>"; };
+		843C69122063E09A00975995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843C69172063E09A00975995 /* MQXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MQXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		843C691B2063E09A00975995 /* MQXUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQXUITests.m; sourceTree = "<group>"; };
+		843C691D2063E09A00975995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843C69332063E1F100975995 /* WTPhotosDataBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTPhotosDataBaseModel.h; sourceTree = "<group>"; };
+		843C69342063E1F100975995 /* WTPhotosDataBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTPhotosDataBaseModel.m; sourceTree = "<group>"; };
+		843C69362063E20C00975995 /* WTDroneNavigationModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTDroneNavigationModel.h; sourceTree = "<group>"; };
+		843C69372063E20C00975995 /* WTDroneNavigationModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTDroneNavigationModel.m; sourceTree = "<group>"; };
+		843C69392063E22A00975995 /* WTDronePhotoInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTDronePhotoInfoModel.h; sourceTree = "<group>"; };
+		843C693A2063E22A00975995 /* WTDronePhotoInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTDronePhotoInfoModel.m; sourceTree = "<group>"; };
+		843C69452063E2A600975995 /* WTDeviceInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTDeviceInfoModel.h; sourceTree = "<group>"; };
+		843C69462063E2A600975995 /* WTDeviceInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTDeviceInfoModel.m; sourceTree = "<group>"; };
+		843C69482063E2ED00975995 /* WTCircleProgressModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTCircleProgressModel.h; sourceTree = "<group>"; };
+		843C69492063E2ED00975995 /* WTCircleProgressModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTCircleProgressModel.m; sourceTree = "<group>"; };
+		843C694B2063E30800975995 /* WTSDCardInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTSDCardInfoModel.h; sourceTree = "<group>"; };
+		843C694C2063E30800975995 /* WTSDCardInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTSDCardInfoModel.m; sourceTree = "<group>"; };
+		843C694E2063E33100975995 /* WTCameraSettingModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTCameraSettingModel.h; sourceTree = "<group>"; };
+		843C694F2063E33100975995 /* WTCameraSettingModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTCameraSettingModel.m; sourceTree = "<group>"; };
+		843C695B2063E94F00975995 /* WTAVPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTAVPlayerView.h; sourceTree = "<group>"; };
+		843C695C2063E94F00975995 /* WTAVPlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTAVPlayerView.m; sourceTree = "<group>"; };
+		843C695E2063E96C00975995 /* WTAVPlayerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WTAVPlayerView.xib; sourceTree = "<group>"; };
+		843C69612063E9CE00975995 /* WTCircleProgress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTCircleProgress.h; sourceTree = "<group>"; };
+		843C69622063E9CE00975995 /* WTCircleProgress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTCircleProgress.m; sourceTree = "<group>"; };
+		843C69642063E9F100975995 /* WTCircleProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTCircleProgressView.h; sourceTree = "<group>"; };
+		843C69652063E9F100975995 /* WTCircleProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTCircleProgressView.m; sourceTree = "<group>"; };
+		843C69672063EA0C00975995 /* WTCircleProgressView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WTCircleProgressView.xib; sourceTree = "<group>"; };
+		843C69692063EA2B00975995 /* WTDroneToolView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTDroneToolView.h; sourceTree = "<group>"; };
+		843C696A2063EA2B00975995 /* WTDroneToolView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTDroneToolView.m; sourceTree = "<group>"; };
+		843C696C2063EA4900975995 /* WTDroneToolView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WTDroneToolView.xib; sourceTree = "<group>"; };
+		843C696E2063EA6B00975995 /* WTDroneNavigationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WTDroneNavigationView.xib; sourceTree = "<group>"; };
+		843C69702063EA8600975995 /* WTDroneNavigationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTDroneNavigationView.h; sourceTree = "<group>"; };
+		843C69712063EA8600975995 /* WTDroneNavigationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTDroneNavigationView.m; sourceTree = "<group>"; };
+		843C69752063EB0100975995 /* WTPreviewPhotoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTPreviewPhotoCell.h; sourceTree = "<group>"; };
+		843C69762063EB0100975995 /* WTPreviewPhotoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTPreviewPhotoCell.m; sourceTree = "<group>"; };
+		843C69782063EB3200975995 /* WTCommonCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTCommonCollectionCell.h; sourceTree = "<group>"; };
+		843C69792063EB3200975995 /* WTCommonCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTCommonCollectionCell.m; sourceTree = "<group>"; };
+		843C697C2063EBA900975995 /* WTScrollLabelView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTScrollLabelView.h; sourceTree = "<group>"; };
+		843C697D2063EBA900975995 /* WTScrollLabelView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTScrollLabelView.m; sourceTree = "<group>"; };
+		843C69802063EBF500975995 /* WTPopWindowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTPopWindowView.h; sourceTree = "<group>"; };
+		843C69812063EBF500975995 /* WTPopWindowView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTPopWindowView.m; sourceTree = "<group>"; };
+		843C69832063EC0B00975995 /* WTPopWindowView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WTPopWindowView.xib; sourceTree = "<group>"; };
+		843C69852063EC4E00975995 /* WTSwitchCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTSwitchCell.h; sourceTree = "<group>"; };
+		843C69862063EC4E00975995 /* WTSwitchCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTSwitchCell.m; sourceTree = "<group>"; };
+		843C69872063EC4E00975995 /* WTSwitchCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WTSwitchCell.xib; sourceTree = "<group>"; };
+		843C698B2063ECCA00975995 /* WTCameraCommonSettingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTCameraCommonSettingView.h; sourceTree = "<group>"; };
+		843C698C2063ECCA00975995 /* WTCameraCommonSettingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTCameraCommonSettingView.m; sourceTree = "<group>"; };
+		843C698E2063ECEC00975995 /* WTCameraSettingHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTCameraSettingHeaderView.h; sourceTree = "<group>"; };
+		843C698F2063ECEC00975995 /* WTCameraSettingHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTCameraSettingHeaderView.m; sourceTree = "<group>"; };
+		843C69912063ED0700975995 /* WTCameraSettingHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WTCameraSettingHeaderView.xib; sourceTree = "<group>"; };
+		843C69932063ED4300975995 /* WTCameraSettingModeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTCameraSettingModeCell.h; sourceTree = "<group>"; };
+		843C69942063ED4300975995 /* WTCameraSettingModeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTCameraSettingModeCell.m; sourceTree = "<group>"; };
+		843C69952063ED4300975995 /* WTCameraSettingModeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WTCameraSettingModeCell.xib; sourceTree = "<group>"; };
+		843C69982063ED6A00975995 /* WTCameraSettingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTCameraSettingView.h; sourceTree = "<group>"; };
+		843C69992063ED6A00975995 /* WTCameraSettingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTCameraSettingView.m; sourceTree = "<group>"; };
+		843C699B2063ED8C00975995 /* WTCameraToolView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTCameraToolView.h; sourceTree = "<group>"; };
+		843C699C2063ED8C00975995 /* WTCameraToolView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTCameraToolView.m; sourceTree = "<group>"; };
+		843C699E2063EDA300975995 /* WTVideoTimeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTVideoTimeView.h; sourceTree = "<group>"; };
+		843C699F2063EDA300975995 /* WTVideoTimeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTVideoTimeView.m; sourceTree = "<group>"; };
+		843C69A12063EDB600975995 /* WTVideoTimeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WTVideoTimeView.xib; sourceTree = "<group>"; };
+		843C69A32063EDCC00975995 /* WTCameraToolView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WTCameraToolView.xib; sourceTree = "<group>"; };
+		843C69A62063EE3600975995 /* WTCommonCollectionHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTCommonCollectionHeaderView.h; sourceTree = "<group>"; };
+		843C69A72063EE3600975995 /* WTCommonCollectionHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTCommonCollectionHeaderView.m; sourceTree = "<group>"; };
+		843C69A92063EE8900975995 /* WTWarningView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTWarningView.h; sourceTree = "<group>"; };
+		843C69AA2063EE8900975995 /* WTWarningView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTWarningView.m; sourceTree = "<group>"; };
+		843C69AC2063EE9C00975995 /* WTWarningView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WTWarningView.xib; sourceTree = "<group>"; };
+		843C69AE2063EEBD00975995 /* WTDroneStateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTDroneStateView.h; sourceTree = "<group>"; };
+		843C69AF2063EEBD00975995 /* WTDroneStateView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTDroneStateView.m; sourceTree = "<group>"; };
+		843C69B12063EED500975995 /* WTNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTNavigationBar.h; sourceTree = "<group>"; };
+		843C69B22063EED500975995 /* WTNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTNavigationBar.m; sourceTree = "<group>"; };
+		843C69B42063EEEA00975995 /* WTNavigationBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WTNavigationBar.xib; sourceTree = "<group>"; };
+		843C69B62063EF0200975995 /* WTDroneStateView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WTDroneStateView.xib; sourceTree = "<group>"; };
+		843C69B92063EF5D00975995 /* WTStatusView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTStatusView.h; sourceTree = "<group>"; };
+		843C69BA2063EF5D00975995 /* WTStatusView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTStatusView.m; sourceTree = "<group>"; };
+		843C69BC2063EF7400975995 /* WTFlightStatusView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTFlightStatusView.h; sourceTree = "<group>"; };
+		843C69BD2063EF7400975995 /* WTFlightStatusView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTFlightStatusView.m; sourceTree = "<group>"; };
+		843C69BF2063EF8800975995 /* WTFlightStatusView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WTFlightStatusView.xib; sourceTree = "<group>"; };
+		843C69C12063EFA600975995 /* WTVideoHomepageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTVideoHomepageView.h; sourceTree = "<group>"; };
+		843C69C22063EFA600975995 /* WTVideoHomepageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTVideoHomepageView.m; sourceTree = "<group>"; };
+		843C69C42063EFB900975995 /* WTVideoHomepageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WTVideoHomepageView.xib; sourceTree = "<group>"; };
+		843C69CC2063F4DA00975995 /* WTNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTNavigationViewController.h; sourceTree = "<group>"; };
+		843C69CD2063F4DA00975995 /* WTNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTNavigationViewController.m; sourceTree = "<group>"; };
+		843C69CF2063F4FE00975995 /* WTBaseNavigationControllerStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTBaseNavigationControllerStack.h; sourceTree = "<group>"; };
+		843C69D02063F4FE00975995 /* WTBaseNavigationControllerStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTBaseNavigationControllerStack.m; sourceTree = "<group>"; };
+		843C69D22063F51600975995 /* WTBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTBaseViewController.h; sourceTree = "<group>"; };
+		843C69D32063F51600975995 /* WTBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTBaseViewController.m; sourceTree = "<group>"; };
+		843C69D52063F54400975995 /* WTVideoPreviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTVideoPreviewViewController.h; sourceTree = "<group>"; };
+		843C69D62063F54400975995 /* WTVideoPreviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTVideoPreviewViewController.m; sourceTree = "<group>"; };
+		843C69D82063F56200975995 /* WTStoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTStoreViewController.h; sourceTree = "<group>"; };
+		843C69D92063F56200975995 /* WTStoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTStoreViewController.m; sourceTree = "<group>"; };
+		843C69DE206477EA00975995 /* WTDroneGalleryTransitionAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTDroneGalleryTransitionAnimator.h; sourceTree = "<group>"; };
+		843C69DF206477EA00975995 /* WTDroneGalleryTransitionAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTDroneGalleryTransitionAnimator.m; sourceTree = "<group>"; };
+		843C69E12064781300975995 /* WTDroneGalleryBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTDroneGalleryBaseViewController.h; sourceTree = "<group>"; };
+		843C69E22064781300975995 /* WTDroneGalleryBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTDroneGalleryBaseViewController.m; sourceTree = "<group>"; };
+		843C69E42064782E00975995 /* WTDroneGalleryPreviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTDroneGalleryPreviewViewController.h; sourceTree = "<group>"; };
+		843C69E52064782E00975995 /* WTDroneGalleryPreviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTDroneGalleryPreviewViewController.m; sourceTree = "<group>"; };
+		843C69E72064784800975995 /* WTDroneGalleryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTDroneGalleryViewController.h; sourceTree = "<group>"; };
+		843C69E82064784800975995 /* WTDroneGalleryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTDroneGalleryViewController.m; sourceTree = "<group>"; };
+		843C69EA2064786700975995 /* WTMeidasViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTMeidasViewController.h; sourceTree = "<group>"; };
+		843C69EB2064786700975995 /* WTMeidasViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTMeidasViewController.m; sourceTree = "<group>"; };
+		843C69ED2064788300975995 /* WTGalleryBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTGalleryBaseViewController.h; sourceTree = "<group>"; };
+		843C69EE2064788300975995 /* WTGalleryBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTGalleryBaseViewController.m; sourceTree = "<group>"; };
+		843C69F0206478D300975995 /* WTMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTMainViewController.h; sourceTree = "<group>"; };
+		843C69F1206478D300975995 /* WTMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTMainViewController.m; sourceTree = "<group>"; };
+		843C69F3206478E400975995 /* WTMqxViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTMqxViewController.h; sourceTree = "<group>"; };
+		843C69F4206478E400975995 /* WTMqxViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTMqxViewController.m; sourceTree = "<group>"; };
+		843C6A03206479E100975995 /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		843C6A0420647A1D00975995 /* WTUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTUtil.h; sourceTree = "<group>"; };
+		843C6A0520647A1D00975995 /* WTUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTUtil.m; sourceTree = "<group>"; };
+		843C6A0720647A3D00975995 /* WTMessageBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTMessageBox.h; sourceTree = "<group>"; };
+		843C6A0820647A3D00975995 /* WTMessageBox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTMessageBox.m; sourceTree = "<group>"; };
+		843C6A0A20647A6B00975995 /* WTDroneMediasDownloadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTDroneMediasDownloadManager.h; sourceTree = "<group>"; };
+		843C6A0B20647A6B00975995 /* WTDroneMediasDownloadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTDroneMediasDownloadManager.m; sourceTree = "<group>"; };
+		843C6A0D20647A8000975995 /* WTWarningManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTWarningManager.h; sourceTree = "<group>"; };
+		843C6A0E20647A8000975995 /* WTWarningManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTWarningManager.m; sourceTree = "<group>"; };
+		843C6A1020647A9E00975995 /* WTWarningConstMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTWarningConstMacro.h; sourceTree = "<group>"; };
+		843C6A1120647ABC00975995 /* WTABECamManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTABECamManager.h; sourceTree = "<group>"; };
+		843C6A1220647ABC00975995 /* WTABECamManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTABECamManager.m; sourceTree = "<group>"; };
+		843C6A1420647AF300975995 /* WTDroneGalleryMediasHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTDroneGalleryMediasHelper.h; sourceTree = "<group>"; };
+		843C6A1520647AF300975995 /* WTDroneGalleryMediasHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTDroneGalleryMediasHelper.m; sourceTree = "<group>"; };
+		843C6A1720647B4900975995 /* UIColor+WTColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+WTColor.h"; sourceTree = "<group>"; };
+		843C6A1820647B4900975995 /* UIColor+WTColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WTColor.m"; sourceTree = "<group>"; };
+		843C6A1A20647B6000975995 /* UIImage+WTImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+WTImage.h"; sourceTree = "<group>"; };
+		843C6A1B20647B6000975995 /* UIImage+WTImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WTImage.m"; sourceTree = "<group>"; };
+		843C6A1D20647B7200975995 /* UIButton+WTButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+WTButton.h"; sourceTree = "<group>"; };
+		843C6A1E20647B7200975995 /* UIButton+WTButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WTButton.m"; sourceTree = "<group>"; };
+		843C6A2020647B8700975995 /* UIFont+WTFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+WTFont.h"; sourceTree = "<group>"; };
+		843C6A2120647B8700975995 /* UIFont+WTFont.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+WTFont.m"; sourceTree = "<group>"; };
+		843C6A2820679B7300975995 /* WTSessionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTSessionModel.h; sourceTree = "<group>"; };
+		843C6A2920679B7300975995 /* WTSessionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTSessionModel.m; sourceTree = "<group>"; };
+		843C6A2B20679B9B00975995 /* UIImage+Clip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Clip.h"; sourceTree = "<group>"; };
+		843C6A2C20679B9B00975995 /* UIImage+Clip.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Clip.m"; sourceTree = "<group>"; };
+		843C6A2E20679BB900975995 /* WTImageHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTImageHelper.h; sourceTree = "<group>"; };
+		843C6A2F20679BB900975995 /* WTImageHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTImageHelper.m; sourceTree = "<group>"; };
+		843C6A3120679BD300975995 /* WTDownloadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTDownloadManager.h; sourceTree = "<group>"; };
+		843C6A3220679BD300975995 /* WTDownloadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTDownloadManager.m; sourceTree = "<group>"; };
+		843C6A3420679C1100975995 /* WTPhotosDataBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTPhotosDataBase.h; sourceTree = "<group>"; };
+		843C6A3520679C1100975995 /* WTPhotosDataBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTPhotosDataBase.m; sourceTree = "<group>"; };
+		843C6A3720679C3400975995 /* ZWVerticalAlignLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWVerticalAlignLabel.h; sourceTree = "<group>"; };
+		843C6A3820679C3500975995 /* ZWVerticalAlignLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWVerticalAlignLabel.m; sourceTree = "<group>"; };
+		843C6A3A20679C5500975995 /* ABECam.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ABECam.framework; sourceTree = "<group>"; };
+		843C6A3C20679C8400975995 /* WTMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTMacros.h; sourceTree = "<group>"; };
+		843C6A3D20679C9A00975995 /* WTAppConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTAppConfig.h; sourceTree = "<group>"; };
+		843C6A3E20679CB700975995 /* WTConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTConst.h; sourceTree = "<group>"; };
+		843C6A3F20679CB700975995 /* WTConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTConst.m; sourceTree = "<group>"; };
+		843C6A4120679CCC00975995 /* WTEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTEnum.h; sourceTree = "<group>"; };
+		843C6A4220679CDF00975995 /* WTBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTBlock.h; sourceTree = "<group>"; };
+		843C6A4520679D5D00975995 /* CameraSetting.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CameraSetting.plist; sourceTree = "<group>"; };
+		843C6A582067A60100975995 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		843C6A592067A60200975995 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		843C6A5B2067A67700975995 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		843C6A5D2067A68200975995 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		843C6A5E2067E40500975995 /* WTMediaModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTMediaModel.m; sourceTree = "<group>"; };
+		843C6A5F2067E40500975995 /* WTMediaModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTMediaModel.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		843C68F12063E09A00975995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843C6A3B20679C5500975995 /* ABECam.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843C69092063E09A00975995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843C69142063E09A00975995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		843C68EB2063E09A00975995 = {
+			isa = PBXGroup;
+			children = (
+				843C68F62063E09A00975995 /* MQX */,
+				843C690F2063E09A00975995 /* MQXTests */,
+				843C691A2063E09A00975995 /* MQXUITests */,
+				843C68F52063E09A00975995 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		843C68F52063E09A00975995 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				843C68F42063E09A00975995 /* MQX.app */,
+				843C690C2063E09A00975995 /* MQXTests.xctest */,
+				843C69172063E09A00975995 /* MQXUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		843C68F62063E09A00975995 /* MQX */ = {
+			isa = PBXGroup;
+			children = (
+				843C692B2063E14300975995 /* Model */,
+				843C692E2063E14300975995 /* View */,
+				843C692C2063E14300975995 /* ViewController */,
+				843C692D2063E14300975995 /* Utils */,
+				843C69292063E14300975995 /* Vendor */,
+				843C692A2063E14300975995 /* Macros */,
+				843C692F2063E14400975995 /* Resource */,
+				843C68F72063E09A00975995 /* AppDelegate.h */,
+				843C68F82063E09A00975995 /* AppDelegate.m */,
+				843C68FA2063E09A00975995 /* ViewController.h */,
+				843C68FB2063E09A00975995 /* ViewController.m */,
+				843C68FD2063E09A00975995 /* Main.storyboard */,
+				843C69002063E09A00975995 /* Assets.xcassets */,
+				843C69022063E09A00975995 /* LaunchScreen.storyboard */,
+				843C69052063E09A00975995 /* Info.plist */,
+				843C69062063E09A00975995 /* main.m */,
+			);
+			path = MQX;
+			sourceTree = "<group>";
+		};
+		843C690F2063E09A00975995 /* MQXTests */ = {
+			isa = PBXGroup;
+			children = (
+				843C69102063E09A00975995 /* MQXTests.m */,
+				843C69122063E09A00975995 /* Info.plist */,
+			);
+			path = MQXTests;
+			sourceTree = "<group>";
+		};
+		843C691A2063E09A00975995 /* MQXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				843C691B2063E09A00975995 /* MQXUITests.m */,
+				843C691D2063E09A00975995 /* Info.plist */,
+			);
+			path = MQXUITests;
+			sourceTree = "<group>";
+		};
+		843C69292063E14300975995 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				843C6A3A20679C5500975995 /* ABECam.framework */,
+				843C6A2320679A6800975995 /* GalleryLibs */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		843C692A2063E14300975995 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				843C6A3C20679C8400975995 /* WTMacros.h */,
+				843C6A3D20679C9A00975995 /* WTAppConfig.h */,
+				843C6A3E20679CB700975995 /* WTConst.h */,
+				843C6A3F20679CB700975995 /* WTConst.m */,
+				843C6A4120679CCC00975995 /* WTEnum.h */,
+				843C6A4220679CDF00975995 /* WTBlock.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		843C692B2063E14300975995 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				843C69302063E1B800975995 /* CameraSetting */,
+				843C69312063E1B800975995 /* DeviceInfo */,
+				843C69322063E1B800975995 /* DroneGallery */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		843C692C2063E14300975995 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				843C69C92063F49500975995 /* BaseClass */,
+				843C69CA2063F49500975995 /* DroneGallery */,
+				843C69C82063F49500975995 /* Main */,
+				843C69C72063F49500975995 /* Store */,
+				843C69C62063F49500975995 /* VideoPreview */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		843C692D2063E14300975995 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				843C69F6206479AF00975995 /* Category */,
+				843C69FD206479B000975995 /* Helper */,
+				843C69FF206479B000975995 /* Manager */,
+				843C69FB206479AF00975995 /* Singleton */,
+				843C69FC206479AF00975995 /* Util */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		843C692E2063E14300975995 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				843C69562063E91300975995 /* AVPlayer */,
+				843C69592063E91400975995 /* CameraTool */,
+				843C69542063E91300975995 /* CollectionHeaderView */,
+				843C69522063E91300975995 /* CollectionViewCell */,
+				843C695A2063E91400975995 /* Common */,
+				843C69512063E91300975995 /* DroneGallery */,
+				843C69572063E91400975995 /* Home */,
+				843C69532063E91300975995 /* NavigationBar */,
+				843C69552063E91300975995 /* TableViewCell */,
+				843C69582063E91400975995 /* Warning */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		843C692F2063E14400975995 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				843C6A532067A51600975995 /* Strings */,
+				843C6A4320679D5D00975995 /* Plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		843C69302063E1B800975995 /* CameraSetting */ = {
+			isa = PBXGroup;
+			children = (
+				843C694E2063E33100975995 /* WTCameraSettingModel.h */,
+				843C694F2063E33100975995 /* WTCameraSettingModel.m */,
+			);
+			path = CameraSetting;
+			sourceTree = "<group>";
+		};
+		843C69312063E1B800975995 /* DeviceInfo */ = {
+			isa = PBXGroup;
+			children = (
+				843C69452063E2A600975995 /* WTDeviceInfoModel.h */,
+				843C69462063E2A600975995 /* WTDeviceInfoModel.m */,
+				843C694B2063E30800975995 /* WTSDCardInfoModel.h */,
+				843C694C2063E30800975995 /* WTSDCardInfoModel.m */,
+			);
+			path = DeviceInfo;
+			sourceTree = "<group>";
+		};
+		843C69322063E1B800975995 /* DroneGallery */ = {
+			isa = PBXGroup;
+			children = (
+				843C6A5F2067E40500975995 /* WTMediaModel.h */,
+				843C6A5E2067E40500975995 /* WTMediaModel.m */,
+				843C69332063E1F100975995 /* WTPhotosDataBaseModel.h */,
+				843C69342063E1F100975995 /* WTPhotosDataBaseModel.m */,
+				843C69362063E20C00975995 /* WTDroneNavigationModel.h */,
+				843C69372063E20C00975995 /* WTDroneNavigationModel.m */,
+				843C69392063E22A00975995 /* WTDronePhotoInfoModel.h */,
+				843C693A2063E22A00975995 /* WTDronePhotoInfoModel.m */,
+				843C69482063E2ED00975995 /* WTCircleProgressModel.h */,
+				843C69492063E2ED00975995 /* WTCircleProgressModel.m */,
+			);
+			path = DroneGallery;
+			sourceTree = "<group>";
+		};
+		843C69512063E91300975995 /* DroneGallery */ = {
+			isa = PBXGroup;
+			children = (
+				843C69602063E9A700975995 /* Common */,
+				843C69692063EA2B00975995 /* WTDroneToolView.h */,
+				843C696A2063EA2B00975995 /* WTDroneToolView.m */,
+				843C696C2063EA4900975995 /* WTDroneToolView.xib */,
+				843C69702063EA8600975995 /* WTDroneNavigationView.h */,
+				843C69712063EA8600975995 /* WTDroneNavigationView.m */,
+				843C696E2063EA6B00975995 /* WTDroneNavigationView.xib */,
+			);
+			path = DroneGallery;
+			sourceTree = "<group>";
+		};
+		843C69522063E91300975995 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				843C69742063EABE00975995 /* Gallery */,
+				843C69732063EABE00975995 /* GalleryCommon */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		843C69532063E91300975995 /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				843C69AE2063EEBD00975995 /* WTDroneStateView.h */,
+				843C69AF2063EEBD00975995 /* WTDroneStateView.m */,
+				843C69B62063EF0200975995 /* WTDroneStateView.xib */,
+				843C69B12063EED500975995 /* WTNavigationBar.h */,
+				843C69B22063EED500975995 /* WTNavigationBar.m */,
+				843C69B42063EEEA00975995 /* WTNavigationBar.xib */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		843C69542063E91300975995 /* CollectionHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				843C69A52063EE1000975995 /* GalleryCommon */,
+			);
+			path = CollectionHeaderView;
+			sourceTree = "<group>";
+		};
+		843C69552063E91300975995 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				843C69852063EC4E00975995 /* WTSwitchCell.h */,
+				843C69862063EC4E00975995 /* WTSwitchCell.m */,
+				843C69872063EC4E00975995 /* WTSwitchCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		843C69562063E91300975995 /* AVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				843C695B2063E94F00975995 /* WTAVPlayerView.h */,
+				843C695C2063E94F00975995 /* WTAVPlayerView.m */,
+				843C695E2063E96C00975995 /* WTAVPlayerView.xib */,
+			);
+			path = AVPlayer;
+			sourceTree = "<group>";
+		};
+		843C69572063E91400975995 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				843C69B82063EF3200975995 /* FlightStatusView */,
+				843C69C12063EFA600975995 /* WTVideoHomepageView.h */,
+				843C69C22063EFA600975995 /* WTVideoHomepageView.m */,
+				843C69C42063EFB900975995 /* WTVideoHomepageView.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		843C69582063E91400975995 /* Warning */ = {
+			isa = PBXGroup;
+			children = (
+				843C69A92063EE8900975995 /* WTWarningView.h */,
+				843C69AA2063EE8900975995 /* WTWarningView.m */,
+				843C69AC2063EE9C00975995 /* WTWarningView.xib */,
+			);
+			path = Warning;
+			sourceTree = "<group>";
+		};
+		843C69592063E91400975995 /* CameraTool */ = {
+			isa = PBXGroup;
+			children = (
+				843C698A2063EC9300975995 /* CameraSetting */,
+				843C699B2063ED8C00975995 /* WTCameraToolView.h */,
+				843C699C2063ED8C00975995 /* WTCameraToolView.m */,
+				843C69A32063EDCC00975995 /* WTCameraToolView.xib */,
+				843C699E2063EDA300975995 /* WTVideoTimeView.h */,
+				843C699F2063EDA300975995 /* WTVideoTimeView.m */,
+				843C69A12063EDB600975995 /* WTVideoTimeView.xib */,
+			);
+			path = CameraTool;
+			sourceTree = "<group>";
+		};
+		843C695A2063E91400975995 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				843C697F2063EBE100975995 /* PopWindowView */,
+				843C697B2063EB8000975995 /* ScrollLabelView */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		843C69602063E9A700975995 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				843C69612063E9CE00975995 /* WTCircleProgress.h */,
+				843C69622063E9CE00975995 /* WTCircleProgress.m */,
+				843C69642063E9F100975995 /* WTCircleProgressView.h */,
+				843C69652063E9F100975995 /* WTCircleProgressView.m */,
+				843C69672063EA0C00975995 /* WTCircleProgressView.xib */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		843C69732063EABE00975995 /* GalleryCommon */ = {
+			isa = PBXGroup;
+			children = (
+				843C69782063EB3200975995 /* WTCommonCollectionCell.h */,
+				843C69792063EB3200975995 /* WTCommonCollectionCell.m */,
+			);
+			path = GalleryCommon;
+			sourceTree = "<group>";
+		};
+		843C69742063EABE00975995 /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				843C69752063EB0100975995 /* WTPreviewPhotoCell.h */,
+				843C69762063EB0100975995 /* WTPreviewPhotoCell.m */,
+			);
+			path = Gallery;
+			sourceTree = "<group>";
+		};
+		843C697B2063EB8000975995 /* ScrollLabelView */ = {
+			isa = PBXGroup;
+			children = (
+				843C697C2063EBA900975995 /* WTScrollLabelView.h */,
+				843C697D2063EBA900975995 /* WTScrollLabelView.m */,
+			);
+			path = ScrollLabelView;
+			sourceTree = "<group>";
+		};
+		843C697F2063EBE100975995 /* PopWindowView */ = {
+			isa = PBXGroup;
+			children = (
+				843C69802063EBF500975995 /* WTPopWindowView.h */,
+				843C69812063EBF500975995 /* WTPopWindowView.m */,
+				843C69832063EC0B00975995 /* WTPopWindowView.xib */,
+			);
+			path = PopWindowView;
+			sourceTree = "<group>";
+		};
+		843C698A2063EC9300975995 /* CameraSetting */ = {
+			isa = PBXGroup;
+			children = (
+				843C698B2063ECCA00975995 /* WTCameraCommonSettingView.h */,
+				843C698C2063ECCA00975995 /* WTCameraCommonSettingView.m */,
+				843C698E2063ECEC00975995 /* WTCameraSettingHeaderView.h */,
+				843C698F2063ECEC00975995 /* WTCameraSettingHeaderView.m */,
+				843C69912063ED0700975995 /* WTCameraSettingHeaderView.xib */,
+				843C69932063ED4300975995 /* WTCameraSettingModeCell.h */,
+				843C69942063ED4300975995 /* WTCameraSettingModeCell.m */,
+				843C69952063ED4300975995 /* WTCameraSettingModeCell.xib */,
+				843C69982063ED6A00975995 /* WTCameraSettingView.h */,
+				843C69992063ED6A00975995 /* WTCameraSettingView.m */,
+			);
+			path = CameraSetting;
+			sourceTree = "<group>";
+		};
+		843C69A52063EE1000975995 /* GalleryCommon */ = {
+			isa = PBXGroup;
+			children = (
+				843C69A62063EE3600975995 /* WTCommonCollectionHeaderView.h */,
+				843C69A72063EE3600975995 /* WTCommonCollectionHeaderView.m */,
+			);
+			path = GalleryCommon;
+			sourceTree = "<group>";
+		};
+		843C69B82063EF3200975995 /* FlightStatusView */ = {
+			isa = PBXGroup;
+			children = (
+				843C69B92063EF5D00975995 /* WTStatusView.h */,
+				843C69BA2063EF5D00975995 /* WTStatusView.m */,
+				843C69BC2063EF7400975995 /* WTFlightStatusView.h */,
+				843C69BD2063EF7400975995 /* WTFlightStatusView.m */,
+				843C69BF2063EF8800975995 /* WTFlightStatusView.xib */,
+			);
+			path = FlightStatusView;
+			sourceTree = "<group>";
+		};
+		843C69C62063F49500975995 /* VideoPreview */ = {
+			isa = PBXGroup;
+			children = (
+				843C69D52063F54400975995 /* WTVideoPreviewViewController.h */,
+				843C69D62063F54400975995 /* WTVideoPreviewViewController.m */,
+			);
+			path = VideoPreview;
+			sourceTree = "<group>";
+		};
+		843C69C72063F49500975995 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				843C69D82063F56200975995 /* WTStoreViewController.h */,
+				843C69D92063F56200975995 /* WTStoreViewController.m */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		843C69C82063F49500975995 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				843C69F0206478D300975995 /* WTMainViewController.h */,
+				843C69F1206478D300975995 /* WTMainViewController.m */,
+				843C69F3206478E400975995 /* WTMqxViewController.h */,
+				843C69F4206478E400975995 /* WTMqxViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		843C69C92063F49500975995 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				843C69CC2063F4DA00975995 /* WTNavigationViewController.h */,
+				843C69CD2063F4DA00975995 /* WTNavigationViewController.m */,
+				843C69CF2063F4FE00975995 /* WTBaseNavigationControllerStack.h */,
+				843C69D02063F4FE00975995 /* WTBaseNavigationControllerStack.m */,
+				843C69D22063F51600975995 /* WTBaseViewController.h */,
+				843C69D32063F51600975995 /* WTBaseViewController.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		843C69CA2063F49500975995 /* DroneGallery */ = {
+			isa = PBXGroup;
+			children = (
+				843C69CB2063F49500975995 /* GalleryPreview */,
+				843C69ED2064788300975995 /* WTGalleryBaseViewController.h */,
+				843C69EE2064788300975995 /* WTGalleryBaseViewController.m */,
+			);
+			path = DroneGallery;
+			sourceTree = "<group>";
+		};
+		843C69CB2063F49500975995 /* GalleryPreview */ = {
+			isa = PBXGroup;
+			children = (
+				843C69DE206477EA00975995 /* WTDroneGalleryTransitionAnimator.h */,
+				843C69DF206477EA00975995 /* WTDroneGalleryTransitionAnimator.m */,
+				843C69E12064781300975995 /* WTDroneGalleryBaseViewController.h */,
+				843C69E22064781300975995 /* WTDroneGalleryBaseViewController.m */,
+				843C69E42064782E00975995 /* WTDroneGalleryPreviewViewController.h */,
+				843C69E52064782E00975995 /* WTDroneGalleryPreviewViewController.m */,
+				843C69E72064784800975995 /* WTDroneGalleryViewController.h */,
+				843C69E82064784800975995 /* WTDroneGalleryViewController.m */,
+				843C69EA2064786700975995 /* WTMeidasViewController.h */,
+				843C69EB2064786700975995 /* WTMeidasViewController.m */,
+			);
+			path = GalleryPreview;
+			sourceTree = "<group>";
+		};
+		843C69F6206479AF00975995 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				843C69F7206479AF00975995 /* Color */,
+				843C69F8206479AF00975995 /* Image */,
+				843C69F9206479AF00975995 /* Button */,
+				843C69FA206479AF00975995 /* Font */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		843C69F7206479AF00975995 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				843C6A1720647B4900975995 /* UIColor+WTColor.h */,
+				843C6A1820647B4900975995 /* UIColor+WTColor.m */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		843C69F8206479AF00975995 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				843C6A1A20647B6000975995 /* UIImage+WTImage.h */,
+				843C6A1B20647B6000975995 /* UIImage+WTImage.m */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		843C69F9206479AF00975995 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				843C6A1D20647B7200975995 /* UIButton+WTButton.h */,
+				843C6A1E20647B7200975995 /* UIButton+WTButton.m */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		843C69FA206479AF00975995 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				843C6A2020647B8700975995 /* UIFont+WTFont.h */,
+				843C6A2120647B8700975995 /* UIFont+WTFont.m */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		843C69FB206479AF00975995 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				843C6A03206479E100975995 /* Singleton.h */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		843C69FC206479AF00975995 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				843C6A0420647A1D00975995 /* WTUtil.h */,
+				843C6A0520647A1D00975995 /* WTUtil.m */,
+				843C6A0720647A3D00975995 /* WTMessageBox.h */,
+				843C6A0820647A3D00975995 /* WTMessageBox.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		843C69FD206479B000975995 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				843C69FE206479B000975995 /* Gallery */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		843C69FE206479B000975995 /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				843C6A1420647AF300975995 /* WTDroneGalleryMediasHelper.h */,
+				843C6A1520647AF300975995 /* WTDroneGalleryMediasHelper.m */,
+			);
+			path = Gallery;
+			sourceTree = "<group>";
+		};
+		843C69FF206479B000975995 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				843C6A00206479B000975995 /* Gallery */,
+				843C6A01206479B000975995 /* Warning */,
+				843C6A02206479B000975995 /* ABECam */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		843C6A00206479B000975995 /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				843C6A0A20647A6B00975995 /* WTDroneMediasDownloadManager.h */,
+				843C6A0B20647A6B00975995 /* WTDroneMediasDownloadManager.m */,
+			);
+			path = Gallery;
+			sourceTree = "<group>";
+		};
+		843C6A01206479B000975995 /* Warning */ = {
+			isa = PBXGroup;
+			children = (
+				843C6A0D20647A8000975995 /* WTWarningManager.h */,
+				843C6A0E20647A8000975995 /* WTWarningManager.m */,
+				843C6A1020647A9E00975995 /* WTWarningConstMacro.h */,
+			);
+			path = Warning;
+			sourceTree = "<group>";
+		};
+		843C6A02206479B000975995 /* ABECam */ = {
+			isa = PBXGroup;
+			children = (
+				843C6A1120647ABC00975995 /* WTABECamManager.h */,
+				843C6A1220647ABC00975995 /* WTABECamManager.m */,
+			);
+			path = ABECam;
+			sourceTree = "<group>";
+		};
+		843C6A2320679A6800975995 /* GalleryLibs */ = {
+			isa = PBXGroup;
+			children = (
+				843C6A2420679A6800975995 /* PhotoKit */,
+			);
+			path = GalleryLibs;
+			sourceTree = "<group>";
+		};
+		843C6A2420679A6800975995 /* PhotoKit */ = {
+			isa = PBXGroup;
+			children = (
+				843C6A3720679C3400975995 /* ZWVerticalAlignLabel.h */,
+				843C6A3820679C3500975995 /* ZWVerticalAlignLabel.m */,
+				843C6A2820679B7300975995 /* WTSessionModel.h */,
+				843C6A2920679B7300975995 /* WTSessionModel.m */,
+				843C6A2B20679B9B00975995 /* UIImage+Clip.h */,
+				843C6A2C20679B9B00975995 /* UIImage+Clip.m */,
+				843C6A2E20679BB900975995 /* WTImageHelper.h */,
+				843C6A2F20679BB900975995 /* WTImageHelper.m */,
+				843C6A3120679BD300975995 /* WTDownloadManager.h */,
+				843C6A3220679BD300975995 /* WTDownloadManager.m */,
+				843C6A3420679C1100975995 /* WTPhotosDataBase.h */,
+				843C6A3520679C1100975995 /* WTPhotosDataBase.m */,
+			);
+			path = PhotoKit;
+			sourceTree = "<group>";
+		};
+		843C6A4320679D5D00975995 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				843C6A4420679D5D00975995 /* cameraSetting */,
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		843C6A4420679D5D00975995 /* cameraSetting */ = {
+			isa = PBXGroup;
+			children = (
+				843C6A4520679D5D00975995 /* CameraSetting.plist */,
+			);
+			path = cameraSetting;
+			sourceTree = "<group>";
+		};
+		843C6A532067A51600975995 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				843C6A5C2067A67700975995 /* Localizable.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		843C68F32063E09A00975995 /* MQX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843C69202063E09A00975995 /* Build configuration list for PBXNativeTarget "MQX" */;
+			buildPhases = (
+				843C68F02063E09A00975995 /* Sources */,
+				843C68F12063E09A00975995 /* Frameworks */,
+				843C68F22063E09A00975995 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MQX;
+			productName = MQX;
+			productReference = 843C68F42063E09A00975995 /* MQX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		843C690B2063E09A00975995 /* MQXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843C69232063E09A00975995 /* Build configuration list for PBXNativeTarget "MQXTests" */;
+			buildPhases = (
+				843C69082063E09A00975995 /* Sources */,
+				843C69092063E09A00975995 /* Frameworks */,
+				843C690A2063E09A00975995 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				843C690E2063E09A00975995 /* PBXTargetDependency */,
+			);
+			name = MQXTests;
+			productName = MQXTests;
+			productReference = 843C690C2063E09A00975995 /* MQXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		843C69162063E09A00975995 /* MQXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843C69262063E09A00975995 /* Build configuration list for PBXNativeTarget "MQXUITests" */;
+			buildPhases = (
+				843C69132063E09A00975995 /* Sources */,
+				843C69142063E09A00975995 /* Frameworks */,
+				843C69152063E09A00975995 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				843C69192063E09A00975995 /* PBXTargetDependency */,
+			);
+			name = MQXUITests;
+			productName = MQXUITests;
+			productReference = 843C69172063E09A00975995 /* MQXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		843C68EC2063E09A00975995 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = WT;
+				TargetAttributes = {
+					843C68F32063E09A00975995 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					843C690B2063E09A00975995 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 843C68F32063E09A00975995;
+					};
+					843C69162063E09A00975995 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 843C68F32063E09A00975995;
+					};
+				};
+			};
+			buildConfigurationList = 843C68EF2063E09A00975995 /* Build configuration list for PBXProject "MQX" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 843C68EB2063E09A00975995;
+			productRefGroup = 843C68F52063E09A00975995 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				843C68F32063E09A00975995 /* MQX */,
+				843C690B2063E09A00975995 /* MQXTests */,
+				843C69162063E09A00975995 /* MQXUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		843C68F22063E09A00975995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843C69AD2063EE9C00975995 /* WTWarningView.xib in Resources */,
+				843C696F2063EA6B00975995 /* WTDroneNavigationView.xib in Resources */,
+				843C69972063ED4300975995 /* WTCameraSettingModeCell.xib in Resources */,
+				843C69892063EC4E00975995 /* WTSwitchCell.xib in Resources */,
+				843C69B72063EF0200975995 /* WTDroneStateView.xib in Resources */,
+				843C6A5A2067A67700975995 /* Localizable.strings in Resources */,
+				843C69842063EC0B00975995 /* WTPopWindowView.xib in Resources */,
+				843C6A4620679D5E00975995 /* CameraSetting.plist in Resources */,
+				843C69682063EA0C00975995 /* WTCircleProgressView.xib in Resources */,
+				843C69042063E09A00975995 /* LaunchScreen.storyboard in Resources */,
+				843C696D2063EA4900975995 /* WTDroneToolView.xib in Resources */,
+				843C69922063ED0800975995 /* WTCameraSettingHeaderView.xib in Resources */,
+				843C69C02063EF8800975995 /* WTFlightStatusView.xib in Resources */,
+				843C69A22063EDB700975995 /* WTVideoTimeView.xib in Resources */,
+				843C695F2063E96C00975995 /* WTAVPlayerView.xib in Resources */,
+				843C69012063E09A00975995 /* Assets.xcassets in Resources */,
+				843C68FF2063E09A00975995 /* Main.storyboard in Resources */,
+				843C69A42063EDCC00975995 /* WTCameraToolView.xib in Resources */,
+				843C69B52063EEEA00975995 /* WTNavigationBar.xib in Resources */,
+				843C69C52063EFB900975995 /* WTVideoHomepageView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843C690A2063E09A00975995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843C69152063E09A00975995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		843C68F02063E09A00975995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843C69BB2063EF5D00975995 /* WTStatusView.m in Sources */,
+				843C69A82063EE3600975995 /* WTCommonCollectionHeaderView.m in Sources */,
+				843C697A2063EB3200975995 /* WTCommonCollectionCell.m in Sources */,
+				843C69502063E33100975995 /* WTCameraSettingModel.m in Sources */,
+				843C69E0206477EA00975995 /* WTDroneGalleryTransitionAnimator.m in Sources */,
+				843C6A2D20679B9B00975995 /* UIImage+Clip.m in Sources */,
+				843C69902063ECEC00975995 /* WTCameraSettingHeaderView.m in Sources */,
+				843C693B2063E22A00975995 /* WTDronePhotoInfoModel.m in Sources */,
+				843C69D12063F4FE00975995 /* WTBaseNavigationControllerStack.m in Sources */,
+				843C698D2063ECCA00975995 /* WTCameraCommonSettingView.m in Sources */,
+				843C699A2063ED6A00975995 /* WTCameraSettingView.m in Sources */,
+				843C69E32064781300975995 /* WTDroneGalleryBaseViewController.m in Sources */,
+				843C69722063EA8600975995 /* WTDroneNavigationView.m in Sources */,
+				843C6A2220647B8700975995 /* UIFont+WTFont.m in Sources */,
+				843C696B2063EA2B00975995 /* WTDroneToolView.m in Sources */,
+				843C6A0620647A1D00975995 /* WTUtil.m in Sources */,
+				843C69C32063EFA600975995 /* WTVideoHomepageView.m in Sources */,
+				843C69352063E1F100975995 /* WTPhotosDataBaseModel.m in Sources */,
+				843C69AB2063EE8900975995 /* WTWarningView.m in Sources */,
+				843C69CE2063F4DA00975995 /* WTNavigationViewController.m in Sources */,
+				843C6A3320679BD300975995 /* WTDownloadManager.m in Sources */,
+				843C6A0920647A3D00975995 /* WTMessageBox.m in Sources */,
+				843C69882063EC4E00975995 /* WTSwitchCell.m in Sources */,
+				843C68FC2063E09A00975995 /* ViewController.m in Sources */,
+				843C6A1620647AF300975995 /* WTDroneGalleryMediasHelper.m in Sources */,
+				843C69772063EB0100975995 /* WTPreviewPhotoCell.m in Sources */,
+				843C6A2A20679B7300975995 /* WTSessionModel.m in Sources */,
+				843C69662063E9F200975995 /* WTCircleProgressView.m in Sources */,
+				843C697E2063EBA900975995 /* WTScrollLabelView.m in Sources */,
+				843C69B32063EED500975995 /* WTNavigationBar.m in Sources */,
+				843C6A1F20647B7200975995 /* UIButton+WTButton.m in Sources */,
+				843C6A1320647ABC00975995 /* WTABECamManager.m in Sources */,
+				843C69072063E09A00975995 /* main.m in Sources */,
+				843C69F5206478E400975995 /* WTMqxViewController.m in Sources */,
+				843C69E62064782E00975995 /* WTDroneGalleryPreviewViewController.m in Sources */,
+				843C6A3620679C1100975995 /* WTPhotosDataBase.m in Sources */,
+				843C6A4020679CB700975995 /* WTConst.m in Sources */,
+				843C6A602067E40500975995 /* WTMediaModel.m in Sources */,
+				843C69E92064784800975995 /* WTDroneGalleryViewController.m in Sources */,
+				843C6A3920679C3500975995 /* ZWVerticalAlignLabel.m in Sources */,
+				843C69D42063F51600975995 /* WTBaseViewController.m in Sources */,
+				843C69822063EBF500975995 /* WTPopWindowView.m in Sources */,
+				843C6A0F20647A8000975995 /* WTWarningManager.m in Sources */,
+				843C695D2063E94F00975995 /* WTAVPlayerView.m in Sources */,
+				843C69EF2064788300975995 /* WTGalleryBaseViewController.m in Sources */,
+				843C69962063ED4300975995 /* WTCameraSettingModeCell.m in Sources */,
+				843C69A02063EDA300975995 /* WTVideoTimeView.m in Sources */,
+				843C69BE2063EF7400975995 /* WTFlightStatusView.m in Sources */,
+				843C68F92063E09A00975995 /* AppDelegate.m in Sources */,
+				843C69B02063EEBD00975995 /* WTDroneStateView.m in Sources */,
+				843C699D2063ED8C00975995 /* WTCameraToolView.m in Sources */,
+				843C6A3020679BB900975995 /* WTImageHelper.m in Sources */,
+				843C69F2206478D300975995 /* WTMainViewController.m in Sources */,
+				843C6A1920647B4900975995 /* UIColor+WTColor.m in Sources */,
+				843C6A0C20647A6B00975995 /* WTDroneMediasDownloadManager.m in Sources */,
+				843C694A2063E2ED00975995 /* WTCircleProgressModel.m in Sources */,
+				843C69EC2064786700975995 /* WTMeidasViewController.m in Sources */,
+				843C69472063E2A600975995 /* WTDeviceInfoModel.m in Sources */,
+				843C69DA2063F56200975995 /* WTStoreViewController.m in Sources */,
+				843C69382063E20C00975995 /* WTDroneNavigationModel.m in Sources */,
+				843C6A1C20647B6000975995 /* UIImage+WTImage.m in Sources */,
+				843C694D2063E30800975995 /* WTSDCardInfoModel.m in Sources */,
+				843C69632063E9CE00975995 /* WTCircleProgress.m in Sources */,
+				843C69D72063F54400975995 /* WTVideoPreviewViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843C69082063E09A00975995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843C69112063E09A00975995 /* MQXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843C69132063E09A00975995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843C691C2063E09A00975995 /* MQXUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		843C690E2063E09A00975995 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 843C68F32063E09A00975995 /* MQX */;
+			targetProxy = 843C690D2063E09A00975995 /* PBXContainerItemProxy */;
+		};
+		843C69192063E09A00975995 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 843C68F32063E09A00975995 /* MQX */;
+			targetProxy = 843C69182063E09A00975995 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		843C68FD2063E09A00975995 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				843C68FE2063E09A00975995 /* Base */,
+				843C6A582067A60100975995 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		843C69022063E09A00975995 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				843C69032063E09A00975995 /* Base */,
+				843C6A592067A60200975995 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		843C6A5C2067A67700975995 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				843C6A5B2067A67700975995 /* en */,
+				843C6A5D2067A68200975995 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		843C691E2063E09A00975995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		843C691F2063E09A00975995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		843C69212063E09A00975995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7K57RY5M6B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MQX/Vendor",
+				);
+				INFOPLIST_FILE = MQX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WT.MQX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		843C69222063E09A00975995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7K57RY5M6B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MQX/Vendor",
+				);
+				INFOPLIST_FILE = MQX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WT.MQX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		843C69242063E09A00975995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7K57RY5M6B;
+				INFOPLIST_FILE = MQXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WT.MQXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MQX.app/MQX";
+			};
+			name = Debug;
+		};
+		843C69252063E09A00975995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7K57RY5M6B;
+				INFOPLIST_FILE = MQXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WT.MQXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MQX.app/MQX";
+			};
+			name = Release;
+		};
+		843C69272063E09A00975995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7K57RY5M6B;
+				INFOPLIST_FILE = MQXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WT.MQXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MQX;
+			};
+			name = Debug;
+		};
+		843C69282063E09A00975995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7K57RY5M6B;
+				INFOPLIST_FILE = MQXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WT.MQXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MQX;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		843C68EF2063E09A00975995 /* Build configuration list for PBXProject "MQX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843C691E2063E09A00975995 /* Debug */,
+				843C691F2063E09A00975995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843C69202063E09A00975995 /* Build configuration list for PBXNativeTarget "MQX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843C69212063E09A00975995 /* Debug */,
+				843C69222063E09A00975995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843C69232063E09A00975995 /* Build configuration list for PBXNativeTarget "MQXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843C69242063E09A00975995 /* Debug */,
+				843C69252063E09A00975995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843C69262063E09A00975995 /* Build configuration list for PBXNativeTarget "MQXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843C69272063E09A00975995 /* Debug */,
+				843C69282063E09A00975995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 843C68EC2063E09A00975995 /* Project object */;
+}
