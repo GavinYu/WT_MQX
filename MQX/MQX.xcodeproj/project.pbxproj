@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C0F179384744798E47784B0 /* libPods-defaults-YMQ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E111053FCDDFC67B8C1537DF /* libPods-defaults-YMQ.a */; };
+		4606D89C93AB9B5511F6EE5A /* libPods-defaults-MQX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0827BFB5E68CF1FC3077B9D /* libPods-defaults-MQX.a */; };
 		843C68F92063E09A00975995 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C68F82063E09A00975995 /* AppDelegate.m */; };
 		843C68FC2063E09A00975995 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C68FB2063E09A00975995 /* ViewController.m */; };
 		843C68FF2063E09A00975995 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843C68FD2063E09A00975995 /* Main.storyboard */; };
@@ -94,6 +96,15 @@
 		843C6A4620679D5E00975995 /* CameraSetting.plist in Resources */ = {isa = PBXBuildFile; fileRef = 843C6A4520679D5D00975995 /* CameraSetting.plist */; };
 		843C6A5A2067A67700975995 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 843C6A5C2067A67700975995 /* Localizable.strings */; };
 		843C6A602067E40500975995 /* WTMediaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C6A5E2067E40500975995 /* WTMediaModel.m */; };
+		E840CFA023A3274700A95D15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E840CF9F23A3274700A95D15 /* AppDelegate.m */; };
+		E840CFA323A3274700A95D15 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E840CFA223A3274700A95D15 /* SceneDelegate.m */; };
+		E840CFA623A3274700A95D15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E840CFA523A3274700A95D15 /* ViewController.m */; };
+		E840CFA923A3274700A95D15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E840CFA723A3274700A95D15 /* Main.storyboard */; };
+		E840CFAB23A3274D00A95D15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E840CFAA23A3274D00A95D15 /* Assets.xcassets */; };
+		E840CFAE23A3274D00A95D15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E840CFAC23A3274D00A95D15 /* LaunchScreen.storyboard */; };
+		E840CFB123A3274D00A95D15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E840CFB023A3274D00A95D15 /* main.m */; };
+		E840CFBB23A3274D00A95D15 /* YMQTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E840CFBA23A3274D00A95D15 /* YMQTests.m */; };
+		E840CFC623A3274D00A95D15 /* YMQUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E840CFC523A3274D00A95D15 /* YMQUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,9 +122,26 @@
 			remoteGlobalIDString = 843C68F32063E09A00975995;
 			remoteInfo = MQX;
 		};
+		E840CFB723A3274D00A95D15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 843C68EC2063E09A00975995 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E840CF9B23A3274700A95D15;
+			remoteInfo = YMQ;
+		};
+		E840CFC223A3274D00A95D15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 843C68EC2063E09A00975995 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E840CF9B23A3274700A95D15;
+			remoteInfo = YMQ;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C6273C582C48EDE065D81C2 /* Pods-defaults-YMQ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaults-YMQ.debug.xcconfig"; path = "Target Support Files/Pods-defaults-YMQ/Pods-defaults-YMQ.debug.xcconfig"; sourceTree = "<group>"; };
+		0E66A65ACF5B9C9FED5248CE /* Pods-YMQ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMQ.debug.xcconfig"; path = "Target Support Files/Pods-YMQ/Pods-YMQ.debug.xcconfig"; sourceTree = "<group>"; };
+		54A008354AE7155444CE6B66 /* Pods-defaults-MQX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaults-MQX.release.xcconfig"; path = "Target Support Files/Pods-defaults-MQX/Pods-defaults-MQX.release.xcconfig"; sourceTree = "<group>"; };
 		843C68F42063E09A00975995 /* MQX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MQX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		843C68F72063E09A00975995 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		843C68F82063E09A00975995 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -279,6 +307,30 @@
 		843C6A5D2067A68200975995 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		843C6A5E2067E40500975995 /* WTMediaModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTMediaModel.m; sourceTree = "<group>"; };
 		843C6A5F2067E40500975995 /* WTMediaModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTMediaModel.h; sourceTree = "<group>"; };
+		950E34CC394A2EFCE8BB00E2 /* Pods-YMQ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMQ.release.xcconfig"; path = "Target Support Files/Pods-YMQ/Pods-YMQ.release.xcconfig"; sourceTree = "<group>"; };
+		A35F5AF43C1F40D9E1114BB4 /* Pods-defaults-MQX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaults-MQX.debug.xcconfig"; path = "Target Support Files/Pods-defaults-MQX/Pods-defaults-MQX.debug.xcconfig"; sourceTree = "<group>"; };
+		B0827BFB5E68CF1FC3077B9D /* libPods-defaults-MQX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-defaults-MQX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E111053FCDDFC67B8C1537DF /* libPods-defaults-YMQ.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-defaults-YMQ.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E840CF9C23A3274700A95D15 /* YMQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E840CF9E23A3274700A95D15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E840CF9F23A3274700A95D15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E840CFA123A3274700A95D15 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		E840CFA223A3274700A95D15 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		E840CFA423A3274700A95D15 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E840CFA523A3274700A95D15 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E840CFA823A3274700A95D15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E840CFAA23A3274D00A95D15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E840CFAD23A3274D00A95D15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E840CFAF23A3274D00A95D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E840CFB023A3274D00A95D15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E840CFB623A3274D00A95D15 /* YMQTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMQTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E840CFBA23A3274D00A95D15 /* YMQTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMQTests.m; sourceTree = "<group>"; };
+		E840CFBC23A3274D00A95D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E840CFC123A3274D00A95D15 /* YMQUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMQUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E840CFC523A3274D00A95D15 /* YMQUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMQUITests.m; sourceTree = "<group>"; };
+		E840CFC723A3274D00A95D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8CAA27E23A36043008C8CE2 /* MQX copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MQX copy-Info.plist"; path = "/Users/yuneec/Desktop/GavinYu/WT_MQX/MQX/MQX copy-Info.plist"; sourceTree = "<absolute>"; };
+		F0F96E135ED869FF0273B404 /* Pods-defaults-YMQ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaults-YMQ.release.xcconfig"; path = "Target Support Files/Pods-defaults-YMQ/Pods-defaults-YMQ.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -287,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				843C6A3B20679C5500975995 /* ABECam.framework in Frameworks */,
+				4606D89C93AB9B5511F6EE5A /* libPods-defaults-MQX.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,16 +357,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E840CF9923A3274700A95D15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C0F179384744798E47784B0 /* libPods-defaults-YMQ.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E840CFB323A3274D00A95D15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E840CFBE23A3274D00A95D15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		238E5D4823A63F476826870C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0827BFB5E68CF1FC3077B9D /* libPods-defaults-MQX.a */,
+				E111053FCDDFC67B8C1537DF /* libPods-defaults-YMQ.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		843C68EB2063E09A00975995 = {
 			isa = PBXGroup;
 			children = (
 				843C68F62063E09A00975995 /* MQX */,
 				843C690F2063E09A00975995 /* MQXTests */,
 				843C691A2063E09A00975995 /* MQXUITests */,
+				E840CF9D23A3274700A95D15 /* YMQ */,
+				E840CFB923A3274D00A95D15 /* YMQTests */,
+				E840CFC423A3274D00A95D15 /* YMQUITests */,
 				843C68F52063E09A00975995 /* Products */,
+				DB7A6F4A64CD6F683494D3CB /* Pods */,
+				238E5D4823A63F476826870C /* Frameworks */,
+				E8CAA27E23A36043008C8CE2 /* MQX copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -323,6 +413,9 @@
 				843C68F42063E09A00975995 /* MQX.app */,
 				843C690C2063E09A00975995 /* MQXTests.xctest */,
 				843C69172063E09A00975995 /* MQXUITests.xctest */,
+				E840CF9C23A3274700A95D15 /* YMQ.app */,
+				E840CFB623A3274D00A95D15 /* YMQTests.xctest */,
+				E840CFC123A3274D00A95D15 /* YMQUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -923,6 +1016,55 @@
 			path = Strings;
 			sourceTree = "<group>";
 		};
+		DB7A6F4A64CD6F683494D3CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E66A65ACF5B9C9FED5248CE /* Pods-YMQ.debug.xcconfig */,
+				950E34CC394A2EFCE8BB00E2 /* Pods-YMQ.release.xcconfig */,
+				A35F5AF43C1F40D9E1114BB4 /* Pods-defaults-MQX.debug.xcconfig */,
+				54A008354AE7155444CE6B66 /* Pods-defaults-MQX.release.xcconfig */,
+				0C6273C582C48EDE065D81C2 /* Pods-defaults-YMQ.debug.xcconfig */,
+				F0F96E135ED869FF0273B404 /* Pods-defaults-YMQ.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E840CF9D23A3274700A95D15 /* YMQ */ = {
+			isa = PBXGroup;
+			children = (
+				E840CF9E23A3274700A95D15 /* AppDelegate.h */,
+				E840CF9F23A3274700A95D15 /* AppDelegate.m */,
+				E840CFA123A3274700A95D15 /* SceneDelegate.h */,
+				E840CFA223A3274700A95D15 /* SceneDelegate.m */,
+				E840CFA423A3274700A95D15 /* ViewController.h */,
+				E840CFA523A3274700A95D15 /* ViewController.m */,
+				E840CFA723A3274700A95D15 /* Main.storyboard */,
+				E840CFAA23A3274D00A95D15 /* Assets.xcassets */,
+				E840CFAC23A3274D00A95D15 /* LaunchScreen.storyboard */,
+				E840CFAF23A3274D00A95D15 /* Info.plist */,
+				E840CFB023A3274D00A95D15 /* main.m */,
+			);
+			path = YMQ;
+			sourceTree = "<group>";
+		};
+		E840CFB923A3274D00A95D15 /* YMQTests */ = {
+			isa = PBXGroup;
+			children = (
+				E840CFBA23A3274D00A95D15 /* YMQTests.m */,
+				E840CFBC23A3274D00A95D15 /* Info.plist */,
+			);
+			path = YMQTests;
+			sourceTree = "<group>";
+		};
+		E840CFC423A3274D00A95D15 /* YMQUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E840CFC523A3274D00A95D15 /* YMQUITests.m */,
+				E840CFC723A3274D00A95D15 /* Info.plist */,
+			);
+			path = YMQUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -930,9 +1072,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 843C69202063E09A00975995 /* Build configuration list for PBXNativeTarget "MQX" */;
 			buildPhases = (
+				9440F54F6B5A45EC073E6FA5 /* [CP] Check Pods Manifest.lock */,
 				843C68F02063E09A00975995 /* Sources */,
 				843C68F12063E09A00975995 /* Frameworks */,
 				843C68F22063E09A00975995 /* Resources */,
+				1E1BC1E1731760EA37FD7138 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -979,6 +1123,61 @@
 			productReference = 843C69172063E09A00975995 /* MQXUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		E840CF9B23A3274700A95D15 /* YMQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E840CFC823A3274D00A95D15 /* Build configuration list for PBXNativeTarget "YMQ" */;
+			buildPhases = (
+				961B0D9B4E7028342AE0C44C /* [CP] Check Pods Manifest.lock */,
+				E840CF9823A3274700A95D15 /* Sources */,
+				E840CF9923A3274700A95D15 /* Frameworks */,
+				E840CF9A23A3274700A95D15 /* Resources */,
+				4627BADA33ED6D3E05396C4C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YMQ;
+			productName = YMQ;
+			productReference = E840CF9C23A3274700A95D15 /* YMQ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E840CFB523A3274D00A95D15 /* YMQTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E840CFCB23A3274D00A95D15 /* Build configuration list for PBXNativeTarget "YMQTests" */;
+			buildPhases = (
+				E840CFB223A3274D00A95D15 /* Sources */,
+				E840CFB323A3274D00A95D15 /* Frameworks */,
+				E840CFB423A3274D00A95D15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E840CFB823A3274D00A95D15 /* PBXTargetDependency */,
+			);
+			name = YMQTests;
+			productName = YMQTests;
+			productReference = E840CFB623A3274D00A95D15 /* YMQTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E840CFC023A3274D00A95D15 /* YMQUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E840CFCE23A3274D00A95D15 /* Build configuration list for PBXNativeTarget "YMQUITests" */;
+			buildPhases = (
+				E840CFBD23A3274D00A95D15 /* Sources */,
+				E840CFBE23A3274D00A95D15 /* Frameworks */,
+				E840CFBF23A3274D00A95D15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E840CFC323A3274D00A95D15 /* PBXTargetDependency */,
+			);
+			name = YMQUITests;
+			productName = YMQUITests;
+			productReference = E840CFC123A3274D00A95D15 /* YMQUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1002,6 +1201,20 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 843C68F32063E09A00975995;
 					};
+					E840CF9B23A3274700A95D15 = {
+						CreatedOnToolsVersion = 11.3;
+						ProvisioningStyle = Automatic;
+					};
+					E840CFB523A3274D00A95D15 = {
+						CreatedOnToolsVersion = 11.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E840CF9B23A3274700A95D15;
+					};
+					E840CFC023A3274D00A95D15 = {
+						CreatedOnToolsVersion = 11.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E840CF9B23A3274700A95D15;
+					};
 				};
 			};
 			buildConfigurationList = 843C68EF2063E09A00975995 /* Build configuration list for PBXProject "MQX" */;
@@ -1021,6 +1234,9 @@
 				843C68F32063E09A00975995 /* MQX */,
 				843C690B2063E09A00975995 /* MQXTests */,
 				843C69162063E09A00975995 /* MQXUITests */,
+				E840CF9B23A3274700A95D15 /* YMQ */,
+				E840CFB523A3274D00A95D15 /* YMQTests */,
+				E840CFC023A3274D00A95D15 /* YMQUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -1067,7 +1283,134 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E840CF9A23A3274700A95D15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E840CFAE23A3274D00A95D15 /* LaunchScreen.storyboard in Resources */,
+				E840CFAB23A3274D00A95D15 /* Assets.xcassets in Resources */,
+				E840CFA923A3274700A95D15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E840CFB423A3274D00A95D15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E840CFBF23A3274D00A95D15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E1BC1E1731760EA37FD7138 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-defaults-MQX/Pods-defaults-MQX-resources.sh",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_amatorka.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_1.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_amatorka.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_miss_etikate.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_1.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_2.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-defaults-MQX/Pods-defaults-MQX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4627BADA33ED6D3E05396C4C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-defaults-YMQ/Pods-defaults-YMQ-resources.sh",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_amatorka.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_1.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_amatorka.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_miss_etikate.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_1.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_2.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-defaults-YMQ/Pods-defaults-YMQ-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9440F54F6B5A45EC073E6FA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-defaults-MQX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		961B0D9B4E7028342AE0C44C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-defaults-YMQ-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		843C68F02063E09A00975995 /* Sources */ = {
@@ -1157,6 +1500,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E840CF9823A3274700A95D15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E840CFA623A3274700A95D15 /* ViewController.m in Sources */,
+				E840CFA023A3274700A95D15 /* AppDelegate.m in Sources */,
+				E840CFB123A3274D00A95D15 /* main.m in Sources */,
+				E840CFA323A3274700A95D15 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E840CFB223A3274D00A95D15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E840CFBB23A3274D00A95D15 /* YMQTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E840CFBD23A3274D00A95D15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E840CFC623A3274D00A95D15 /* YMQUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1169,6 +1539,16 @@
 			isa = PBXTargetDependency;
 			target = 843C68F32063E09A00975995 /* MQX */;
 			targetProxy = 843C69182063E09A00975995 /* PBXContainerItemProxy */;
+		};
+		E840CFB823A3274D00A95D15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E840CF9B23A3274700A95D15 /* YMQ */;
+			targetProxy = E840CFB723A3274D00A95D15 /* PBXContainerItemProxy */;
+		};
+		E840CFC323A3274D00A95D15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E840CF9B23A3274700A95D15 /* YMQ */;
+			targetProxy = E840CFC223A3274D00A95D15 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1198,6 +1578,22 @@
 				843C6A5D2067A68200975995 /* zh-Hans */,
 			);
 			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		E840CFA723A3274700A95D15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E840CFA823A3274700A95D15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E840CFAC23A3274D00A95D15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E840CFAD23A3274D00A95D15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1252,7 +1648,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1302,7 +1698,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -1311,10 +1707,11 @@
 		};
 		843C69212063E09A00975995 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A35F5AF43C1F40D9E1114BB4 /* Pods-defaults-MQX.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7K57RY5M6B;
+				DEVELOPMENT_TEAM = 7TWV6233J9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MQX/Vendor",
@@ -1322,17 +1719,18 @@
 				INFOPLIST_FILE = MQX/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.WT.MQX;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MQX;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		843C69222063E09A00975995 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54A008354AE7155444CE6B66 /* Pods-defaults-MQX.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7K57RY5M6B;
+				DEVELOPMENT_TEAM = 7TWV6233J9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MQX/Vendor",
@@ -1340,7 +1738,7 @@
 				INFOPLIST_FILE = MQX/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.WT.MQX;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MQX;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -1403,6 +1801,127 @@
 			};
 			name = Release;
 		};
+		E840CFC923A3274D00A95D15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C6273C582C48EDE065D81C2 /* Pods-defaults-YMQ.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A8Y3CK95UR;
+				INFOPLIST_FILE = YMQ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuneec.YMQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E840CFCA23A3274D00A95D15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0F96E135ED869FF0273B404 /* Pods-defaults-YMQ.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A8Y3CK95UR;
+				INFOPLIST_FILE = YMQ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuneec.YMQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E840CFCC23A3274D00A95D15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7TWV6233J9;
+				INFOPLIST_FILE = YMQTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuneec.YMQTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMQ.app/YMQ";
+			};
+			name = Debug;
+		};
+		E840CFCD23A3274D00A95D15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7TWV6233J9;
+				INFOPLIST_FILE = YMQTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuneec.YMQTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMQ.app/YMQ";
+			};
+			name = Release;
+		};
+		E840CFCF23A3274D00A95D15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7TWV6233J9;
+				INFOPLIST_FILE = YMQUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuneec.YMQUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YMQ;
+			};
+			name = Debug;
+		};
+		E840CFD023A3274D00A95D15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7TWV6233J9;
+				INFOPLIST_FILE = YMQUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuneec.YMQUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YMQ;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1438,6 +1957,33 @@
 			buildConfigurations = (
 				843C69272063E09A00975995 /* Debug */,
 				843C69282063E09A00975995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E840CFC823A3274D00A95D15 /* Build configuration list for PBXNativeTarget "YMQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E840CFC923A3274D00A95D15 /* Debug */,
+				E840CFCA23A3274D00A95D15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E840CFCB23A3274D00A95D15 /* Build configuration list for PBXNativeTarget "YMQTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E840CFCC23A3274D00A95D15 /* Debug */,
+				E840CFCD23A3274D00A95D15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E840CFCE23A3274D00A95D15 /* Build configuration list for PBXNativeTarget "YMQUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E840CFCF23A3274D00A95D15 /* Debug */,
+				E840CFD023A3274D00A95D15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

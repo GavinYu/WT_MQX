@@ -1,6 +1,8 @@
-target "MQX" do
+source 'https://github.com/CocoaPods/Specs.git'
+
+abstract_target 'defaults' do  
  
-platform :ios, '9.0'
+platform:ios, '10.0'
 
 pod 'Masonry'
 pod 'SVProgressHUD'
@@ -12,5 +14,8 @@ pod 'UMengAnalytics'
 pod 'MLeaksFinder'
 pod 'FDFullscreenPopGesture'
 pod 'YYKit'
+
+target 'MQX'
+target 'YMQ'
 
 end
